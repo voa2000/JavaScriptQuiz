@@ -12,17 +12,25 @@
 <body>
 <h1>This is the best quiz on the internet</h1>
 <form id="quiz" name="quiz">
-   <p>What is the capital of the Gold Coast</p> 
-   <input id="textbox"  type="text" name="question1">
-<p>What is the name of the JavaScript library developed by facebook?</p>
+ <ol>  
+   <li><p>What is the name of the basic scripting language needed to render a basic webpage?</p> </il> 
+   <input id="textbox"  type="text" name="question1" value="">
+<li> <p>What is the name of the JavaScript library developed by facebook?</p></il> 
 <input type ="radio" id="react" name="question2" value="React">React<br>
 <input type ="radio" id="react" name="question2" value="Angular">Angular<br>
 <input type ="radio" id="react" name="question2" value="Vue">Vue<br>
-
-
+<p>
+    <li> <p>What is the name of the JavaScript library developed by google?</p></il> 
+<input type ="radio" id="google" name="question3" value="React">React<br>
+<input type ="radio" id="google" name="question3" value="Angular">Angular<br>
+<input type ="radio" id="goggle" name="question3" value="Vue">Vue<br>
+</p>
+</ol> 
+<input id="button"  type ="button" value="I'm finished!" onclick="check();"
 </form>
-
-
-
+<div id ="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+</div>
 </body>
 </html>
