@@ -5,3 +5,19 @@ p {
     padding: 5px;
     font-size: 15px;
 }
+#quiz {
+    margin-left: 10px;
+    background: #d2def2;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    float: left;
+}
+#after_submit {
+    visibility: hidden;
+}
+input{
+    margin-bottom: 20px;
+}
+#textbox{
+
+}

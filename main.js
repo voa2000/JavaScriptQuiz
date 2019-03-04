@@ -4,7 +4,7 @@ function check(){
     var question3 = document.quiz.question3.value;
     var correct = 0;
     var messages = ["Great job!", "That's just okay", "You really need to do better!"]
-    var images = ["images/win.gif","image/okay.gif","image/loss.gif"]
+    var images = ["Images/win.gif","Images/okay.gif","Images/loss.gif"]
     if (question1=="HTML") {
         correct++;
     }
@@ -23,6 +23,5 @@ function check(){
 document.getElementById("after_submit").style.visibility = "visible";
 document.getElementById("message").innerHTML = messages[range];
 document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-
+document.getElementById("picture").src = images[range];
 }
