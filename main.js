@@ -24,4 +24,14 @@ document.getElementById("after_submit").style.visibility = "visible";
 document.getElementById("message").innerHTML = messages[range];
 document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 document.getElementById("picture").src = images[range];
+};
+function sumInput(){
+	let arr = []; 
+	let sum = 0 , x;
+   while( x = +prompt('x', '')){
+      if(typeof(x)  == 'string') break;
+      arr.push(x);
+      sum += x;
+   };
+ console.log(sum);
 }
